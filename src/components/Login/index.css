@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #87CEEB, #266192); /* Softer gradient */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Added a solid background for better readability */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #4682B4;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container button:hover {
+    background-color: #5A9BD4;
+}
+
+.button-register {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0;
+}
+.button-register>a{
+    color: white;
+    /* text-decoration: none; */
+}
+
+@media (max-width: 576px) {
+    .login-container {
+        width: 90%;
+    }
+    .login-container input {
+        width: 100%;
+    }
+}

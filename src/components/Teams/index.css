@@ -1,0 +1,23 @@
+td{
+    border:2px solid rgb(16, 52, 88);
+    
+}
+th{
+    border:4px solid rgb(17, 72, 126);
+   margin-bottom:0px;
+   padding:10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.button-color{
+    background-color: rgb(17, 72, 126);
+    color: white;   
+}
+.button-color:hover{
+    background-color: rgb(16, 52, 88);
+    transform:translateX(5px) scale(1.1);
+    color: white;   
+}

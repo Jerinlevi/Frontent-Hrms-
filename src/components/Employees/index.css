@@ -1,0 +1,38 @@
+td{
+    border:2px solid rgb(7, 51, 94);
+}
+th{
+    border:3px solid rgb(11, 53, 95);
+   margin-bottom:0px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+input{
+    width:200px;
+    margin:5px;
+    border-radius:5px;
+    outline: none;
+    height:30px;
+    font-size:1rem;
+    border:none;
+    caret-color: rgb(192, 221, 246);
+    color:rgb(192, 221, 246);
+    
+}
+body{
+    color:rgb(192, 221, 246);
+    overflow-x: auto;
+    height:100%;
+}
+h3>div>input{
+    display: flex;
+}
+.employee-actions{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}

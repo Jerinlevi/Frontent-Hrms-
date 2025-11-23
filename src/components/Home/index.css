@@ -1,0 +1,86 @@
+/* Styles for the Home Page */
+.home{
+    height:100%;width:100%;
+    
+}
+body{
+    background: linear-gradient(to top, #87CEEB, #0a79d5); 
+    width: 100%;
+}
+.home-container {
+    flex-shrink:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh;
+    width:100vw; */
+   
+    font-family: Arial, sans-serif;
+}
+
+.home-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.home-description {
+    font-size: 1.2rem;
+    color:rgb(170, 229, 243);
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.home-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}
+a{
+    color:#007bff;
+}
+.admin-list{
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.admin-list>li{
+    margin:20px;
+}
+.home-logout{
+    display:flex;
+    max-width:100%;
+    justify-content:flex-end;
+    padding:20px;
+
+    /* text-align:end!important; */
+}
+.home-title{
+    font-size:4rem;
+    color:white;
+}
+.admin-button{
+    height:40px;
+    width:150px;
+    border-radius:25px;
+}
+.admin-button:hover{
+    background-color: #0056b3;
+    color:white;
+    /* transform:scale(1.1); */
+    /* transition:transform 0.3s ease; */
+
+}
